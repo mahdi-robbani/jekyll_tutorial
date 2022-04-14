@@ -1,6 +1,6 @@
 ---
-layout: "page"
-title: "Donate"
+layout: page
+title: Donate
 ---
 
 Donate to whatever

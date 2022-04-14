@@ -13,6 +13,13 @@ author: "author name"
         <!--Use the title of the current page we are viewing-->
         <h1>{{page.title}}</h1>
         <h5>Written by: {{layout.author}}</h5>
+        {% if page.title == "New Title" %}
+            This is a new post
+        {% elsif page.title == "My First Post" %}
+            This is the first post
+        {% else %}
+            Please just display something
+        {% endif %}
         </div>
         <div class="col-md-1">
         <!-- User Input [DOESNT WORK ON STATIC WEBSITES]-->
